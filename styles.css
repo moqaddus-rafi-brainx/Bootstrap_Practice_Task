@@ -1,0 +1,155 @@
+
+
+#zoomImageContainer{
+max-width: 432px;
+}
+
+.transition-transform{
+transition: transform 0.3s ease;
+}
+
+.body{
+    background-color: #0d4f9a;
+}
+.swiper-slide img {
+width: 100%;
+height: auto;
+max-width: 100px; /* Adjust to fit nicely in the column */
+}
+.navbar {
+
+  font-size: 0.875rem;
+}
+.top-bar a {
+  font-weight: 500;
+
+}
+
+
+.main-bar {
+  background-color: #ffffff;
+  color:black;
+}
+
+.main-bar a{
+    color:#0d4f9a;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  color: #0d4f9a!important; /* BioTrust blue */
+}
+.dropdown-menu {
+  font-size: 0.9rem;
+}
+
+.main-bar  .shop-btn{
+    background-color: #0d4f9a;
+    color:white;
+}
+
+.blue-btn{
+    background-color:#0d4f9a;
+    color:white;
+}
+
+.sub-btn{
+    background-color: white;
+    border-color: #0d4f9a;
+    color:#0d4f9a;
+}
+
+.sub-btn:hover{
+    background-color: #0d4f9a;
+    
+}
+
+.cardss{
+    border-color: #0d4f9a!important;
+}
+
+.amount{
+    color: #0d4f9a;
+}
+.popular{
+    background-color: #0d4f9a;
+    color:white;
+
+}
+
+.photo-tag{
+    color: #0d4f9a;
+}
+
+.background-blue{
+    background-color: #0d4f9a;
+}
+
+.color-blue{
+  color: #0d4f9a !important;
+}
+
+.chat-btn{
+    background-color: #0d4f9a;
+}
+
+.background-green{
+  background-color: #2BB34D;
+}
+.color-green{
+  color:#2BB34D
+}
+
+.color-grey{
+    color:#8f9498;
+}
+
+
+.border-end-10{
+    
+    border-right: 8px solid  #2BB34D;
+   
+}
+
+.border-bottom-10{
+    
+        border-bottom: 8px solid  #2BB34D;
+       
+    
+}
+.background-dark-blue{
+    background-color: #003663;
+}
+
+  
+  .my-account .dropdown-item:hover {
+    background-color: #3568a3 !important;
+    
+  }
+
+  .border-light-blue{
+    border-bottom: 1px solid #3568a3;
+  }
+
+  .customer-service-dropdown{
+    min-width: 320px; width: 350px;
+  }
+
+  
+  .main-bar .dropdown-item:hover{
+    
+    color:rgba(53, 104, 163, 0.6);
+      
+
+  }
+
+  @media (max-width: 767.98px) {
+    .border-blue {
+      border: 1px solid #003663 !important;
+    }
+  }
+
+
