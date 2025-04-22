@@ -1,4 +1,20 @@
 
+:root {
+  --font-stack-body: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+
+body {
+  font-family: var(--font-stack-body);
+}
+
+.main-bar{
+  background: url(https://cdn.shopify.com/s/files/1/0009/2900/5634/files/bg_a71a657f-2566-4a98-a55e-e76b5555861c.png?21731);
+}
+
+.fs-13_5 {
+  font-size: 13.5px;
+}
+
 
 #zoomImageContainer{
 max-width: 432px;
@@ -8,9 +24,7 @@ max-width: 432px;
 transition: transform 0.3s ease;
 }
 
-.body{
-    background-color: #0d4f9a;
-}
+
 .swiper-slide img {
 width: 100%;
 height: auto;
@@ -56,20 +70,14 @@ max-width: 100px; /* Adjust to fit nicely in the column */
     color:white;
 }
 
+/*
 .sub-btn{
     background-color: white;
     border-color: #0d4f9a;
     color:#0d4f9a;
 }
+*/
 
-.sub-btn:hover{
-    background-color: #0d4f9a;
-    
-}
-
-.cardss{
-    border-color: #0d4f9a!important;
-}
 
 .amount{
     color: #0d4f9a;
@@ -88,6 +96,9 @@ max-width: 100px; /* Adjust to fit nicely in the column */
     background-color: #0d4f9a;
 }
 
+.border-blue{
+  border-color: #0d4f9a !important;
+}
 .color-blue{
   color: #0d4f9a !important;
 }
@@ -147,9 +158,88 @@ max-width: 100px; /* Adjust to fit nicely in the column */
   }
 
   @media (max-width: 767.98px) {
-    .border-blue {
+    .border-dark-blue {
       border: 1px solid #003663 !important;
     }
   }
 
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
 
+  .cs-btn{
+    width: 150px;
+    height: 32px;
+  }
+  
+  .cs-img{
+    width: 120px;
+    height: auto;
+  }
+
+  .cs-q-img{
+    width: 120px;
+    height: auto;
+  }
+
+  .cs-text{
+    letter-spacing: 1px;
+    font-weight: 20;
+  }
+
+  .customer-service-dropdown{
+    width:400px;
+    height: auto;
+  }
+
+  .my-account{
+    width:210px;
+    height: auto;
+  }
+
+  .account-item{
+    padding:7px 8px;
+  }
+
+  .main-bar-drops{
+    font-weight: 600 !important;
+    font-size: 15px;
+    font-style: bold;
+  }
+
+  .card-item-weight{
+    font-weight: 1100 !important;
+  }
+  .pack{
+    font-size: 21;
+  }
+
+  .duration{
+    font-size: 16px;
+  }
+  .price{
+    font-size: 25;
+  }
+  .pp{
+    font-size: 13;
+  }
+  .save{
+    font-size: 13px;
+  }
+  .ship{
+    font-size:15px ;
+  }
+/*Changing Border Color of Cards*/
+  @media (min-width: 992px) {
+    .cards {
+      border-color: #0d4f9a !important;
+    }
+  }
+
+  @media(max-width:991px)  {
+
+    .cards {
+      border-color: #2BB34D !important;
+    }
+  }
