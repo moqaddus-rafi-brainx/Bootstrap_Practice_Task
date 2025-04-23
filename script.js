@@ -34,10 +34,12 @@ const inactiveBtn = document.getElementById(inactiveId);
 activeBtn.classList.add('background-blue');
 activeBtn.classList.remove('color-blue');
 activeBtn.classList.add('text-white');
+activeBtn.classList.add('fw-semibold')
 inactiveBtn.classList.remove('background-blue');
 inactiveBtn.classList.remove('text-white');
 inactiveBtn.classList.add('border-blue');
 inactiveBtn.classList.add('color-blue');
+inactiveBtn.classList.remove('fw-semibold')
 }
 
 //Subscription and Puchase Button
