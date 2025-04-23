@@ -244,3 +244,73 @@ max-width: 100px; /* Adjust to fit nicely in the column */
       border-color: #2BB34D !important;
     }
   }
+
+  /*Images Slider Hover Effect*/
+
+
+  .swiper-slide {
+    width: 157px !important;  /* or whatever size you want */
+    height: auto;
+  }
+
+  .thumbnail-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .thumbnail-wrapper img {
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: none; /* override Bootstrap or Swiper limits */
+    max-height: none;
+    transition: all 0.3s ease;
+  }
+  
+  .thumbnail-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height:100%;
+    background-color: rgb(255, 255, 255); /* gray overlay */
+    opacity: 0;
+    transition: opacity 0.1s ease;
+    pointer-events: none;
+  }
+  
+  .thumbnail-wrapper:hover::after {
+    opacity: 0.8;
+  }
+
+
+  /*Appliing font weigth*/
+  .bold {
+    font-weight: 700 !important;
+  }
+
+  .line-spacing-one{
+    letter-spacing:1px !important;
+  }
+  .font-36{
+    font-size: 36px;
+  }
+
+  .font-34{
+    font-size: 34px;
+  }
+
+  .font-24{
+    font-size: 24px;
+  }
+
+  .font-16{
+    font-size: 16px;
+  }
+
+  .font-18{
+    font-size: 18px;
+  }
+  

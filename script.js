@@ -57,8 +57,8 @@ inactiveBtn.classList.add('color-blue');
 
 
   const swiper = new Swiper(".mySwiper", {
-    slidesPerView: 4,
-    spaceBetween: 3,
+    slidesPerView: 5,
+    spaceBetween: 5,
     loop: true,
     navigation: {
       nextEl: ".swiper-button-next",
@@ -66,13 +66,13 @@ inactiveBtn.classList.add('color-blue');
     },
     breakpoints: {
       768: {
-        slidesPerView: 4
+        slidesPerView: 5
       },
       576: {
-        slidesPerView: 4
+        slidesPerView: 5
       },
       320: {
-        slidesPerView: 4
+        slidesPerView: 5
       }
     }
   });
