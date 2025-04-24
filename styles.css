@@ -1,0 +1,331 @@
+
+:root {
+  --font-stack-body: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+
+body {
+  font-family: var(--font-stack-body);
+  overflow-x: hidden;
+}
+
+.main-bar{
+  background: url(https://cdn.shopify.com/s/files/1/0009/2900/5634/files/bg_a71a657f-2566-4a98-a55e-e76b5555861c.png?21731);
+}
+
+.fs-13_5 {
+  font-size: 13.5px;
+}
+
+
+#zoomImageContainer{
+max-width: 432px;
+}
+
+.transition-transform{
+transition: transform 0.3s ease;
+}
+
+
+.swiper-slide img {
+width: 100%;
+height: auto;
+max-width: 100px; /* Adjust to fit nicely in the column */
+}
+.navbar {
+
+  font-size: 0.875rem;
+}
+.top-bar a {
+  font-weight: 500;
+
+}
+
+
+.main-bar {
+  background-color: #ffffff;
+  color:black;
+}
+
+.main-bar a{
+    color:#0d4f9a;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  color: #0d4f9a!important; /* BioTrust blue */
+}
+.dropdown-menu {
+  font-size: 0.9rem;
+}
+
+.main-bar  .shop-btn{
+    background-color: #0d4f9a;
+    color:white;
+}
+
+.blue-btn{
+    background-color:#0d4f9a;
+    color:white;
+}
+
+/*
+.sub-btn{
+    background-color: white;
+    border-color: #0d4f9a;
+    color:#0d4f9a;
+}
+*/
+
+
+.amount{
+    color: #0d4f9a;
+}
+.popular{
+    background-color: #0d4f9a;
+    color:white;
+
+}
+
+.photo-tag{
+    color: #0d4f9a;
+}
+
+.background-blue{
+    background-color: #0d4f9a;
+}
+
+.border-blue{
+  border-color: #0d4f9a !important;
+}
+.color-blue{
+  color: #0d4f9a !important;
+}
+
+.chat-btn{
+    background-color: #0d4f9a;
+}
+
+.background-green{
+  background-color: #2BB34D;
+}
+.color-green{
+  color:#2BB34D
+}
+
+.color-grey{
+    color:#8f9498;
+}
+
+
+.border-end-10{
+    
+    border-right: 8px solid  #2BB34D;
+   
+}
+
+.border-bottom-10{
+    
+        border-bottom: 8px solid  #2BB34D;
+       
+    
+}
+.background-dark-blue{
+    background-color: #003663;
+}
+
+  
+  .my-account .dropdown-item:hover {
+    background-color: #3568a3 !important;
+    
+  }
+
+  .border-light-blue{
+    border-bottom: 1px solid #3568a3;
+  }
+
+  .customer-service-dropdown{
+    min-width: 320px; width: 350px;
+  }
+
+  
+  .main-bar .dropdown-item:hover{
+    
+    color:rgba(53, 104, 163, 0.6);
+      
+
+  }
+
+  @media (max-width: 767.98px) {
+    .border-dark-blue {
+      border: 1px solid #003663 !important;
+    }
+  }
+
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+  .cs-btn{
+    width: 150px;
+    height: 32px;
+  }
+  
+  .cs-img{
+    width: 120px;
+    height: auto;
+  }
+
+  .cs-q-img{
+    width: 120px;
+    height: auto;
+  }
+
+  .cs-text{
+    letter-spacing: 1px;
+    font-weight: 20;
+  }
+
+  .customer-service-dropdown{
+    width:400px;
+    height: auto;
+  }
+
+  .my-account{
+    width:210px;
+    height: auto;
+  }
+
+  .account-item{
+    padding:7px 8px;
+  }
+
+  .main-bar-drops{
+    font-weight: 600 !important;
+    font-size: 15px;
+    font-style: bold;
+  }
+
+  .card-item-weight{
+    font-weight: 1100 !important;
+  }
+  .pack{
+    font-size: 21;
+  }
+
+  .duration{
+    font-size: 16px;
+  }
+  .price{
+    font-size: 25;
+  }
+  .pp{
+    font-size: 13;
+  }
+  .save{
+    font-size: 13px;
+  }
+  .ship{
+    font-size:15px ;
+  }
+/*Changing Border Color of Cards*/
+  @media (min-width: 992px) {
+    .cards {
+      border-color: #0d4f9a !important;
+    }
+  }
+
+  @media(max-width:991px)  {
+
+    .cards {
+      border-color: #2BB34D !important;
+    }
+  }
+
+  /*Images Slider Hover Effect*/
+
+
+  .swiper-slide {
+    width: 157px !important;  /* or whatever size you want */
+    height: auto;
+  }
+
+  .thumbnail-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .thumbnail-wrapper img {
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: none; /* override Bootstrap or Swiper limits */
+    max-height: none;
+    transition: all 0.3s ease;
+  }
+  
+  .thumbnail-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height:100%;
+    background-color: rgb(255, 255, 255); /* gray overlay */
+    opacity: 0;
+    transition: opacity 0.1s ease;
+    pointer-events: none;
+  }
+  
+  .thumbnail-wrapper:hover::after {
+    opacity: 0.8;
+  }
+
+
+  /*Appliing font weigth*/
+  .bold {
+    font-weight: 700 !important;
+  }
+
+  .line-spacing-one{
+    letter-spacing:1px !important;
+  }
+  .font-36{
+    font-size: 36px;
+  }
+
+  .font-34{
+    font-size: 34px;
+  }
+
+  .font-24{
+    font-size: 24px;
+  }
+
+  .font-16{
+    font-size: 16px;
+  }
+
+  .font-18{
+    font-size: 18px;
+  }
+
+  .font-14{
+    font-size: 14px;
+  }
+
+  .sub-btn{
+    padding-top: .8rem ;
+    padding-bottom: .8rem;
+  }
+  
+  input{
+    font-weight: 600 !important;
+    padding: 7px 45px 7px 10px;
+  }
+
+  
